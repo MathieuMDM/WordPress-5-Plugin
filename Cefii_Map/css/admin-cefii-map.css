@@ -1,0 +1,60 @@
+.errorCefiiMap {
+    color: rgb(240, 10, 10);
+    display: none;
+}
+
+.errorCefiiMapDisplay {
+    color: rgb(240, 10, 10);
+    display: flex;
+}
+
+.erreur {
+    color: rgb(240, 10, 10);
+}
+
+.succes {
+    color: rgb(20, 221, 20);
+    font-weight: bold;
+}
+
+#menuMap ul li {
+    display: inline-block;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #999;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#menuMap ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+#menuMap ul li a:hover {
+    color: #999
+}
+
+#menuMap ul li a:active {
+    background-color: #fff;
+}
+
+#menuMap ul li a,
+#menuMap ul li#active a:hover {
+    color: #999;
+    font-weight: bold;
+    cursor: default;
+}
+
+#infosContainer {
+    display: flex;
+}
+
+#mapPreview {
+    margin-left: 2em;
+}
+
+#map {
+    width: 400px;
+    height: 400px;
+}
